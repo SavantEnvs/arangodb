@@ -1,0 +1,8 @@
+# Prune the build context. .git is deliberately NOT listed: the image must hold the full mayhem branch.
+mayhem/build
+**/*.o
+**/*.a
+Documentation
+OpenAPI
+js
+tests

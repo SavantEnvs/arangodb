@@ -1,0 +1,9 @@
+project: savantenvs/arangodb
+target: csv
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/csv/testsuite
+cmds:
+  - cmd: /mayhem/csv
+    libfuzzer: true
+    timeout: 30

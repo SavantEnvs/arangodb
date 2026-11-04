@@ -1,0 +1,14 @@
+# Abseil sources the closure needs; relative to the abseil-cpp checkout.
+absl/base/internal/raw_logging.cc
+absl/container/internal/raw_hash_set.cc
+absl/hash/internal/city.cc
+absl/hash/internal/hash.cc
+absl/hash/internal/low_level_hash.cc
+absl/strings/ascii.cc
+absl/strings/charconv.cc
+absl/strings/internal/charconv_bigint.cc
+absl/strings/internal/charconv_parse.cc
+absl/strings/internal/memutil.cc
+absl/strings/match.cc
+absl/strings/numbers.cc
+absl/strings/str_cat.cc

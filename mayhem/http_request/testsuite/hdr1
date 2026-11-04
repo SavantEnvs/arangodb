@@ -1,0 +1,6 @@
+GET /_api/version HTTP/1.1
+Host: localhost:8529
+Content-Type: application/json
+X-Arango-Async: true
+Cookie: a=b; c=d
+

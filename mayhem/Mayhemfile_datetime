@@ -1,0 +1,9 @@
+project: savantenvs/arangodb
+target: datetime
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/datetime/testsuite
+cmds:
+  - cmd: /mayhem/datetime
+    libfuzzer: true
+    timeout: 30

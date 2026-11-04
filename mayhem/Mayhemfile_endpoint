@@ -1,0 +1,9 @@
+project: savantenvs/arangodb
+target: endpoint
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/endpoint/testsuite
+cmds:
+  - cmd: /mayhem/endpoint
+    libfuzzer: true
+    timeout: 30

@@ -1,0 +1,6 @@
+server.name=x
+server.threads = 0x10
+[server]
+flag=off
+list=a
+list=b

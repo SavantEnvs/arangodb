@@ -1,0 +1,5 @@
+POST /_db/mydb/_api/document/coll?waitForSync=true&x[]=1&x[]=2 HTTP/1.0
+Authorization: Bearer abc.def.ghi
+Content-Length: 2
+
+{}

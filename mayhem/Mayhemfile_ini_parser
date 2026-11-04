@@ -1,0 +1,9 @@
+project: savantenvs/arangodb
+target: ini_parser
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ini_parser/testsuite
+cmds:
+  - cmd: /mayhem/ini_parser
+    libfuzzer: true
+    timeout: 30

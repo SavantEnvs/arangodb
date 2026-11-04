@@ -1,0 +1,7 @@
+[unknown]
+foo=bar
+[server]
+name = "quoted value"
+
+
+  threads   =   -1  
